@@ -10,7 +10,9 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 
 ## Active
 
-_(no active items)_
+| ID | Item | Status | Notes |
+|----|------|--------|-------|
+| SPR133-007 | Create Baby Cry Analysis module structure | [~] | Initial Flutter module setup |
 
 ---
 
@@ -104,4 +106,8 @@ _(no active items)_
 
 ## Closed
 
-_(no closed items yet)_
+| ID | Item | Status | Notes |
+|----|------|--------|-------|
+| SPR133-001 | Create and maintain project backlog (BACKLOG.md) | [x] | Initial BACKLOG.md created |
+| SPR133-002 | Create Software Requirements Specification (SRS_SPR133.md) | [x] | SRS document completed |
+
