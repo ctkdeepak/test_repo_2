@@ -26,14 +26,14 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-032 | Design Baby Cry Analysis Report screen | [ ] | Report UI |
-| SPR133-033 | Display patient demographic information | [ ] | Patient details |
-| SPR133-034 | Display prediction label and confidence score | [ ] | AI output |
-| SPR133-035 | Display report timestamp | [ ] | Report generation time |
-| SPR133-036 | Generate PDF report | [ ] | PDF generation |
-| SPR133-037 | Save PDF using naming convention | [ ] | `[PID]_[DDMMYYYYHHMMSS].pdf` |
-| SPR133-038 | Store PDF in App directory / Download folder | [ ] | Local storage |
-| SPR133-039 | Implement Share Report functionality | [ ] | Native sharing |
+| SPR133-032 | Design Baby Cry Analysis Report screen | [~] | Report UI |
+| SPR133-033 | Display patient demographic information | [~] | Patient details |
+| SPR133-034 | Display prediction label and confidence score | [~] | AI output |
+| SPR133-035 | Display report timestamp | [~] | Report generation time |
+| SPR133-036 | Generate PDF report | [~] | PDF generation |
+| SPR133-037 | Save PDF using naming convention | [~] | `[PID]_[DDMMYYYYHHMMSS].pdf` |
+| SPR133-038 | Store PDF in App directory / Download folder | [~] | Local storage |
+| SPR133-039 | Implement Share Report functionality | [~] | Native sharing |
 
 ---
 
