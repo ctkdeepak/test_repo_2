@@ -1,6 +1,6 @@
 # BACKLOG — SPR133 Baby Cry Analysis App
 
-**Package:** SPR133 | **Project:** CT-PR-0190 Baby Cry Analysis System | **Last Updated:** 2026-07-17
+**Package:** SPR133 | **Project:** CT-PR-0190 Baby Cry Analysis System | **Last Updated:** 2026-07-18
 
 Commit format: `SPR133-<NNN>: short description`
 
@@ -10,41 +10,14 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 
 ## Active
 
-### Milestone 3 – Audio Upload & AI Prediction
-
-| ID | Item | Status | Notes |
-|----|------|--------|-------|
-| SPR133-025 | Implement existing WAV audio file selection | [~] | In development |
-| SPR133-026 | Validate supported audio format (.wav) | [~] | In development |
-| SPR133-027 | Implement multipart/form-data API request | [~] | REST API |
-| SPR133-028 | Upload patient information with audio | [~] | Multipart request |
-| SPR133-029 | Display loading indicator | [~] | During prediction |
-| SPR133-030 | Handle successful prediction response | [~] | Prediction result |
-| SPR133-031 | Handle API failures and network errors | [~] | Error handling |
-
-### Milestone 4 – Baby Cry Analysis Report
-
-| ID | Item | Status | Notes |
-|----|------|--------|-------|
-| SPR133-032 | Design Baby Cry Analysis Report screen | [~] | Report UI |
-| SPR133-033 | Display patient demographic information | [~] | Patient details |
-| SPR133-034 | Display prediction label and confidence score | [~] | AI output |
-| SPR133-035 | Display report timestamp | [~] | Report generation time |
-| SPR133-036 | Generate PDF report | [~] | PDF generation |
-| SPR133-037 | Save PDF using naming convention | [~] | `[PID]_[DDMMYYYYHHMMSS].pdf` |
-| SPR133-038 | Store PDF in App directory / Download folder | [~] | Local storage |
-| SPR133-039 | Implement Share Report functionality | [~] | Native sharing |
-
----
-
 ## Documentation
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-004 | Create Architecture document (Architecture_SPR133.md) | [ ] | Software Architecture |
-| SPR133-005 | Create setup document (setup.md) | [ ] | Build and run instructions |
-| SPR133-006 | Create software baseline (software-baseline.md) | [ ] | Development environment baseline |
-| SPR133-007 | Create SOUP register (SOUP.md) | [ ] | Third-party software components |
+| SPR133-004 | Create Architecture document (Architecture_SPR133.md) | [~] | In development |
+| SPR133-005 | Create setup document (setup.md) | [~] | In development |
+| SPR133-006 | Create software baseline (software-baseline.md) | [~] | In development |
+| SPR133-007 | Create SOUP register (SOUP.md) | [~] | In development |
 
 ---
 
@@ -97,3 +70,28 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 | SPR133-022 | Implement recorded audio playback | [x] | Playback completed |
 | SPR133-023 | Implement Predict Now workflow | [x] | Completed |
 | SPR133-024 | Implement discard and re-record functionality | [x] | Completed |
+
+### Milestone 3 – Audio Upload & AI Prediction
+
+| ID | Item | Status | Notes |
+|----|------|--------|-------|
+| SPR133-025 | Implement existing WAV audio file selection | [x] | Completed |
+| SPR133-026 | Validate supported audio format (.wav) | [x] | Completed |
+| SPR133-027 | Implement multipart/form-data API request | [x] | Completed |
+| SPR133-028 | Upload patient information with audio | [x] | Completed |
+| SPR133-029 | Display loading indicator | [x] | Completed |
+| SPR133-030 | Handle successful prediction response | [x] | Completed |
+| SPR133-031 | Handle API failures and network errors | [x] | Completed |
+
+### Milestone 4 – Baby Cry Analysis Report
+
+| ID | Item | Status | Notes |
+|----|------|--------|-------|
+| SPR133-032 | Design Baby Cry Analysis Report screen | [x] | Completed |
+| SPR133-033 | Display patient demographic information | [x] | Completed |
+| SPR133-034 | Display prediction label and confidence score | [x] | Completed |
+| SPR133-035 | Display report timestamp | [x] | Completed |
+| SPR133-036 | Generate PDF report | [x] | Completed |
+| SPR133-037 | Save PDF using naming convention | [x] | Completed |
+| SPR133-038 | Store PDF in App directory / Download folder | [x] | Completed |
+| SPR133-039 | Implement Share Report functionality | [x] | Completed |
