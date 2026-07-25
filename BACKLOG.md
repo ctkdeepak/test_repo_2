@@ -12,7 +12,8 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-008 | Update BACKLOG according to revised SRS | [~] | Milestones and tasks updated |
+
+_(no active items)_
 
 ---
 
@@ -33,15 +34,15 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-047 | Perform functional testing | [ ] | Feature verification |
-| SPR133-048 | Verify mandatory patient information validation | [ ] | Automatic validation |
-| SPR133-049 | Verify automatic enable/disable behavior of Audio Recording and Upload Audio sections | [ ] | UI validation |
-| SPR133-050 | Verify Data Upload workflow | [ ] | Upload API validation |
-| SPR133-051 | Verify AI Prediction workflow | [ ] | AI API validation |
-| SPR133-052 | Verify report generation, saving and sharing | [ ] | PDF verification |
-| SPR133-053 | Perform regression testing | [ ] | Overall verification |
-| SPR133-054 | Resolve identified issues | [ ] | Bug fixes |
-| SPR133-055 | Prepare package for milestone review | [ ] | Ready for TL review |
+| SPR133-048 | Perform functional testing | [ ] | Feature verification |
+| SPR133-049 | Verify mandatory patient information validation | [ ] | Automatic validation |
+| SPR133-050 | Verify automatic enable/disable behavior of Audio Recording and Upload Audio sections | [ ] | UI validation |
+| SPR133-051 | Verify Data Upload workflow | [ ] | Upload API validation |
+| SPR133-052 | Verify AI Prediction workflow | [ ] | AI API validation |
+| SPR133-053 | Verify report generation, saving and sharing | [ ] | PDF verification |
+| SPR133-054 | Perform regression testing | [ ] | Overall verification |
+| SPR133-055 | Resolve identified issues | [ ] | Bug fixes |
+| SPR133-056 | Prepare package for milestone review | [ ] | Ready for TL review |
 
 ---
 
@@ -52,6 +53,7 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 | SPR133-001 | Initialize repository structure | [x] | Standard repository structure created |
 | SPR133-002 | Create and maintain project backlog (BACKLOG.md) | [x] | Initial backlog created |
 | SPR133-003 | Create Software Requirements Specification (SRS_SPR133.md) | [x] | SRS created and revised to Version 1.0.1. |
+| SPR133-008 | Update BACKLOG according to revised SRS | [x] | Revised milestones and tasks aligned with SRS v1.0.1 |
 
 ### Milestone 1 – Project Setup & Patient Information
 
@@ -79,32 +81,33 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 | SPR133-025 | Generate audio filename using [PID]_[DDMMYYYYHHMMSS].wav | [x] | Naming convention implemented |
 | SPR133-026 | Store audio in App directory / Download folder | [x] | Completed |
 | SPR133-027 | Implement recorded audio playback | [x] | Playback completed |
-| SPR133-028 | Enable recorded audio for Data Upload and AI Prediction workflows | [ ] | Pending implementation |
+| SPR133-028 | Implement discard and re-record functionality | [x] | Completed |
+| SPR133-029 | Enable recorded audio for Data Upload and AI Prediction workflows | [ ] | Pending implementation |
 
 ### Milestone 3 – Data Upload & AI Prediction
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-029 | Implement existing WAV audio file selection | [x] | WAV selection completed |
-| SPR133-030 | Validate supported audio format (.wav) | [x] | Validation completed |
-| SPR133-031 | Implement multipart/form-data request structure | [x] | Shared request structure completed |
-| SPR133-032 | Implement Upload Data API integration | [ ] | Pending |
-| SPR133-033 | Display upload success message | [ ] | Pending |
-| SPR133-034 | Clear patient information and audio after successful upload | [ ] | Pending |
-| SPR133-035 | Implement AI Prediction API | [x] | AI Prediction completed |
-| SPR133-036 | Display loading indicator during AI prediction | [x] | Completed |
-| SPR133-037 | Handle successful AI prediction response | [x] | Completed |
-| SPR133-038 | Handle API failures and network errors | [x] | Completed |
+| SPR133-030 | Implement existing WAV audio file selection | [x] | WAV selection completed |
+| SPR133-031 | Validate supported audio format (.wav) | [x] | Validation completed |
+| SPR133-032 | Implement multipart/form-data request structure | [x] | Multipart request structure implemented for Upload Data and AI Prediction APIs |
+| SPR133-033 | Implement Upload Data API integration (/upload_media) | [ ] | Pending |
+| SPR133-034 | Display upload success message | [ ] | Pending |
+| SPR133-035 | Clear patient information and audio after successful upload | [ ] | Pending |
+| SPR133-036 | Implement Predict Now API integration (/analyze) | [x] | Predict Now API implemented |
+| SPR133-037 | Display loading indicator during AI prediction | [x] | Completed |
+| SPR133-038 | Handle successful AI prediction response | [x] | Completed |
+| SPR133-039 | Handle API failures and network errors | [x] | Completed |
 
 ### Milestone 4 – Baby Cry Analysis Report
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-039 | Design Baby Cry Analysis Report screen | [x] | Report UI completed |
-| SPR133-040 | Display patient demographic information | [x] | Completed |
-| SPR133-041 | Display prediction label and confidence score | [x] | Completed |
-| SPR133-042 | Display report timestamp | [x] | Completed |
-| SPR133-043 | Generate PDF report | [x] | Completed |
-| SPR133-044 | Save PDF using [PID]_[DDMMYYYYHHMMSS].pdf | [x] | Naming convention implemented |
-| SPR133-045 | Store PDF in App directory / Download folder | [x] | Completed |
-| SPR133-046 | Implement Share Report functionality | [x] | Completed |
+| SPR133-040 | Design Baby Cry Analysis Report screen | [x] | Report UI completed |
+| SPR133-041 | Display patient demographic information | [x] | Completed |
+| SPR133-042 | Display prediction label and confidence score | [x] | Completed |
+| SPR133-043 | Display report timestamp | [x] | Completed |
+| SPR133-044 | Generate PDF report | [x] | Completed |
+| SPR133-045 | Save PDF using [PID]_[DDMMYYYYHHMMSS].pdf | [x] | Naming convention implemented |
+| SPR133-046 | Store PDF in App directory / Download folder | [x] | Completed |
+| SPR133-047 | Implement Share Report functionality | [x] | Completed |
