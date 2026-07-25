@@ -51,7 +51,7 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 |----|------|--------|-------|
 | SPR133-001 | Initialize repository structure | [x] | Standard repository structure created |
 | SPR133-002 | Create and maintain project backlog (BACKLOG.md) | [x] | Initial backlog created |
-| SPR133-003 | Create Software Requirements Specification (SRS_SPR133.md) | [x] | SRS completed and SRS revised to Version 1.0.1 |
+| SPR133-003 | Create Software Requirements Specification (SRS_SPR133.md) | [x] | SRS created and revised to Version 1.0.1. |
 
 ### Milestone 1 – Project Setup & Patient Information
 
@@ -91,7 +91,7 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 | SPR133-032 | Implement Upload Data API integration | [ ] | Pending |
 | SPR133-033 | Display upload success message | [ ] | Pending |
 | SPR133-034 | Clear patient information and audio after successful upload | [ ] | Pending |
-| SPR133-035 | Implement Predict Now API integration | [x] | AI Prediction completed |
+| SPR133-035 | Implement AI Prediction API | [x] | AI Prediction completed |
 | SPR133-036 | Display loading indicator during AI prediction | [x] | Completed |
 | SPR133-037 | Handle successful AI prediction response | [x] | Completed |
 | SPR133-038 | Handle API failures and network errors | [x] | Completed |
