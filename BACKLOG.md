@@ -69,8 +69,8 @@ _(no active items)_
 | SPR133-016 | Implement Actual Reason selection | [x] | Completed |
 | SPR133-017 | Implement Notes field | [x] | Completed |
 | SPR133-018 | Implement automatic mandatory field validation | [x] | Automatic validation implemented |
-| SPR133-019 | Enable Audio Recording and Upload Audio sections after mandatory patient information is completed | [ ] | Pending implementation as per revised SRS |
-| SPR133-020 | Implement Reset functionality | [ ] | Pending |
+| SPR133-019 | Enable Audio Recording and Upload Audio sections after mandatory patient information is completed | [x] | Pending implementation as per revised SRS |
+| SPR133-020 | Implement Reset functionality | [x] | Pending |
 | SPR133-021 | Implement microphone permission handling | [x] | Permission flow completed |
 
 ### Milestone 2 – Audio Recording & Playback
