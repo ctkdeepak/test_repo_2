@@ -1,6 +1,6 @@
 # Software Baseline — SPR133 Baby Cry Analysis App
 
-Package: SPR133 | Project: CT-PR-0190 Baby Cry Analysis System | Version: 1.0.2 | Status: Development
+Package: SPR133 | Project: CT-PR-0190 Baby Cry Analysis System
 
 ---
 
@@ -72,8 +72,6 @@ Software Baseline v1.0.2 includes:
 
 ---
 
-**Baseline Status:** Under Development (Version 1.0.2)
-
 **Prepared By:** Kumar Deepak
 
-**Approved By:** Pending
+**Status:** Version 1.0.2 (Under Development)
