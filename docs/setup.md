@@ -129,7 +129,7 @@ Supported Backend APIs:
 
 ---
 
-## 7. Required Androied Permissions
+## 7. Required Android Permissions
 
 The application requires the following Android permissions.
 
