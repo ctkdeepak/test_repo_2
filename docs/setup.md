@@ -1,9 +1,6 @@
 # Setup — SPR133 Baby Cry Analysis App
 
-**Package:** SPR133  
-**Project:** CT-PR-0190 Baby Cry Analysis System  
-**Module:** Baby Cry Data Collection and AI Analysis  
-**Version:** 1.0.2
+Package: SPR133 | Project: CT-PR-0190 Baby Cry Analysis System | Version: 1.0.2 | Status: Development
 
 ---
 
