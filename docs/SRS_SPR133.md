@@ -1,6 +1,6 @@
 # SRS — SPR133 Baby Cry Analysis App
 
-Package: SPR-133 | Project: CT-PR-0190 Baby Cry Analysis System | Version: 1.0 | Status: Draft
+Package: SPR-133 | Project: CT-PR-0190 Baby Cry Analysis System | Version: 1.0.2 | Status: Development
 
 ---
 
