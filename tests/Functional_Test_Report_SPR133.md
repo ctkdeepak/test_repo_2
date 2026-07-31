@@ -124,8 +124,8 @@ The application is considered ready for package review and integration after com
 
 ## 9. Approval
 
-| Role | Name | Signature | Date |
-|------|------|-----------|------|
-| Prepared By | Kumar Deepak | | 2026-07-30 |
-| Reviewed By | | | |
-| Approved By | | | |
+| Role | Name | Date |
+|------|------|------|
+| Prepared By | Kumar Deepak | 2026-07-30 |
+| Reviewed By | | |
+| Approved By | | |
