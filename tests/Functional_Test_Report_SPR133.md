@@ -53,21 +53,21 @@ The following functional areas were verified:
 
 | Test ID | Requirement Reference | Feature | Test Procedure | Expected Result | Actual Result | Status |
 |---------|----------------------|---------|----------------|-----------------|---------------|--------|
-| TC-001 | FR-01 | Patient Information | Enter mandatory patient details | Mandatory fields accepted successfully | As Expected | Pass |
-| TC-002 | FR-02 | Mandatory Validation | Leave mandatory fields empty | Record, Upload and Predict buttons remain disabled | As Expected | Pass |
-| TC-003 | FR-03 | Audio Recording | Record baby cry audio | Audio recorded and stored locally | As Expected | Pass |
-| TC-004 | FR-04 | Audio Playback | Play recorded audio | Audio playback successful | As Expected | Pass |
-| TC-005 | FR-05 | Upload Data API | Upload patient information and audio | Upload completed successfully | As Expected | Pass |
-| TC-006 | FR-06 | AI Prediction API | Execute AI Prediction | Prediction and confidence score displayed | As Expected | Pass |
-| TC-007 | FR-07 | Upload History | Perform Upload Data and AI Prediction | Records stored successfully in Upload History | As Expected | Pass |
-| TC-008 | FR-08 | Upload History Status | Verify upload status | Success/Failed status displayed correctly | As Expected | Pass |
-| TC-009 | FR-09 | Delete Upload History Record | Delete a single record | Selected record removed successfully | As Expected | Pass |
-| TC-010 | FR-10 | Clear Upload History | Clear all history | All records removed after confirmation | As Expected | Pass |
-| TC-011 | FR-11 | Report Generation | Generate Baby Cry Analysis Report | PDF generated successfully | As Expected | Pass |
-| TC-012 | FR-12 | Share Report | Share generated PDF | Android share sheet opened successfully | As Expected | Pass |
-| TC-013 | FR-13 | API Failure Handling | Disconnect network and perform Upload/Predict | Proper error message displayed and failure recorded | As Expected | Pass |
-| TC-014 | NFR-01 | Performance | Execute Upload and Prediction workflows | Application remains responsive during processing | As Expected | Pass |
-| TC-015 | NFR-02 | Local Storage | Verify saved audio, PDF and Upload History | Files and history stored correctly | As Expected | Pass |
+| TC-001  | FR-01  | Patient Information | Enter mandatory patient details | Mandatory fields accepted successfully | As Expected | Pass |
+| TC-002  | FR-02  | Mandatory Validation | Leave mandatory fields empty | Record, Upload and Predict buttons remain disabled | As Expected | Pass |
+| TC-003  | FR-03  | Audio Recording | Record baby cry audio | Audio recorded and stored locally | As Expected | Pass |
+| TC-004  | FR-04  | Audio Playback | Play recorded audio | Audio playback successful | As Expected | Pass |
+| TC-005  | FR-05  | Upload Data API | Upload patient information and audio | Upload completed successfully | As Expected | Pass |
+| TC-006  | FR-06  | AI Prediction API | Execute AI Prediction | Prediction and confidence score displayed | As Expected | Pass |
+| TC-007  | FR-07  | Upload History | Perform Upload Data and AI Prediction | Records stored successfully in Upload History | As Expected | Pass |
+| TC-008  | FR-08  | Upload History Status | Verify upload status | Success/Failed status displayed correctly | As Expected | Pass |
+| TC-009  | FR-09  | Delete Upload History Record | Delete a single record | Selected record removed successfully | As Expected | Pass |
+| TC-010  | FR-10  | Clear Upload History | Clear all history | All records removed after confirmation | As Expected | Pass |
+| TC-011  | FR-11  | Report Generation | Generate Baby Cry Analysis Report | PDF generated successfully | As Expected | Pass |
+| TC-012  | FR-12  | Share Report | Share generated PDF | Android share sheet opened successfully | As Expected | Pass |
+| TC-013  | FR-13  | API Failure Handling | Disconnect network and perform Upload/Predict | Proper error message displayed and failure recorded | As Expected | Pass |
+| TC-014  | NFR-01 | Performance | Execute Upload and Prediction workflows | Application remains responsive during processing | As Expected | Pass |
+| TC-015  | NFR-02 | Local Storage | Verify saved audio, PDF and Upload History | Files and history stored correctly | As Expected | Pass |
 
 ---
 
