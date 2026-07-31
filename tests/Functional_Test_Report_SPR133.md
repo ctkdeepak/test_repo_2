@@ -116,7 +116,7 @@ No functional defects were identified during testing.
 
 The **SPR133 Baby Cry Analysis App** has been functionally verified against the requirements defined in the Software Requirements Specification (SRS) and Architecture & Design Document (ADD).
 
-All planned functional test cases passed successfully. The application correctly performs patient information validation, baby cry audio recording, WAV audio selection, Data Upload, AI Prediction, Upload History management, report generation, PDF sharing, and local data storage.
+All planned functional test cases passed successfully. The application correctly performs patient information validation, baby cry audio recording, Data Upload, AI Prediction, Upload History management, report generation, PDF sharing, and local data storage.
 
 The application is considered ready for package review and integration after completion of the remaining documentation and verification activities.
 
@@ -126,6 +126,6 @@ The application is considered ready for package review and integration after com
 
 | Role | Name | Date |
 |------|------|------|
-| Prepared By | Kumar Deepak | 2026-07-30 |
+| Prepared By | Kumar Deepak | 2026-07-31 |
 | Reviewed By | | |
 | Approved By | | |
