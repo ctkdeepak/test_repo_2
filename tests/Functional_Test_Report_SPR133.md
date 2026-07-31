@@ -4,8 +4,6 @@
 **Product Code & Name:** CT-PR-0190 Baby Cry Analysis System  
 **Module:** Baby Cry Data Collection and AI Analysis  
 **Version:** 1.0.2  
-**Test Date:** 2026-07-31
-**Prepared By:** Kumar Deepak
 
 ---
 
