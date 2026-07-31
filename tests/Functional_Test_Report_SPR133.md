@@ -40,7 +40,6 @@ The following functional areas were verified:
 - Patient Information Management
 - Mandatory Field Validation
 - Audio Recording
-- WAV File Selection
 - Audio Playback
 - Data Upload
 - AI Prediction
@@ -60,18 +59,17 @@ The following functional areas were verified:
 | TC-002 | FR-02 | Mandatory Validation | Leave mandatory fields empty | Record, Upload and Predict buttons remain disabled | As Expected | Pass |
 | TC-003 | FR-03 | Audio Recording | Record baby cry audio | Audio recorded and stored locally | As Expected | Pass |
 | TC-004 | FR-04 | Audio Playback | Play recorded audio | Audio playback successful | As Expected | Pass |
-| TC-005 | FR-05 | WAV Selection | Select existing WAV file | Only supported WAV files accepted | As Expected | Pass |
-| TC-006 | FR-06 | Upload Data API | Upload patient information and audio | Upload completed successfully | As Expected | Pass |
-| TC-007 | FR-07 | AI Prediction API | Execute AI Prediction | Prediction and confidence score displayed | As Expected | Pass |
-| TC-008 | FR-08 | Upload History | Perform Upload Data and AI Prediction | Records stored successfully in Upload History | As Expected | Pass |
-| TC-009 | FR-08 | Upload History Status | Verify upload status | Success/Failed status displayed correctly | As Expected | Pass |
-| TC-010 | FR-08 | Delete Upload History Record | Delete a single record | Selected record removed successfully | As Expected | Pass |
-| TC-011 | FR-08 | Clear Upload History | Clear all history | All records removed after confirmation | As Expected | Pass |
-| TC-012 | FR-09 | Report Generation | Generate Baby Cry Analysis Report | PDF generated successfully | As Expected | Pass |
-| TC-013 | FR-09 | Share Report | Share generated PDF | Android share sheet opened successfully | As Expected | Pass |
-| TC-014 | FR-10 | API Failure Handling | Disconnect network and perform Upload/Predict | Proper error message displayed and failure recorded | As Expected | Pass |
-| TC-015 | NFR-01 | Performance | Execute Upload and Prediction workflows | Application remains responsive during processing | As Expected | Pass |
-| TC-016 | NFR-02 | Local Storage | Verify saved audio, PDF and Upload History | Files and history stored correctly | As Expected | Pass |
+| TC-005 | FR-05 | Upload Data API | Upload patient information and audio | Upload completed successfully | As Expected | Pass |
+| TC-006 | FR-06 | AI Prediction API | Execute AI Prediction | Prediction and confidence score displayed | As Expected | Pass |
+| TC-007 | FR-07 | Upload History | Perform Upload Data and AI Prediction | Records stored successfully in Upload History | As Expected | Pass |
+| TC-008 | FR-08 | Upload History Status | Verify upload status | Success/Failed status displayed correctly | As Expected | Pass |
+| TC-009 | FR-09 | Delete Upload History Record | Delete a single record | Selected record removed successfully | As Expected | Pass |
+| TC-010 | FR-10 | Clear Upload History | Clear all history | All records removed after confirmation | As Expected | Pass |
+| TC-011 | FR-11 | Report Generation | Generate Baby Cry Analysis Report | PDF generated successfully | As Expected | Pass |
+| TC-012 | FR-12 | Share Report | Share generated PDF | Android share sheet opened successfully | As Expected | Pass |
+| TC-013 | FR-13 | API Failure Handling | Disconnect network and perform Upload/Predict | Proper error message displayed and failure recorded | As Expected | Pass |
+| TC-014 | NFR-01 | Performance | Execute Upload and Prediction workflows | Application remains responsive during processing | As Expected | Pass |
+| TC-015 | NFR-02 | Local Storage | Verify saved audio, PDF and Upload History | Files and history stored correctly | As Expected | Pass |
 
 ---
 
@@ -83,14 +81,13 @@ The following functional areas were verified:
 | FR-02 Mandatory Validation | TC-002 |
 | FR-03 Audio Recording | TC-003 |
 | FR-04 Audio Playback | TC-004 |
-| FR-05 WAV Audio Selection | TC-005 |
-| FR-06 Data Upload | TC-006 |
-| FR-07 AI Prediction | TC-007 |
-| FR-08 Upload History | TC-008, TC-009, TC-010, TC-011 |
-| FR-09 Report Generation & Share | TC-012, TC-013 |
-| FR-10 Error Handling | TC-014 |
-| NFR-01 Performance | TC-015 |
-| NFR-02 Local Storage | TC-016 |
+| FR-05 Data Upload | TC-005 |
+| FR-06 AI Prediction | TC-006 |
+| FR-07 Upload History | TC-007, TC-008, TC-009, TC-010 |
+| FR-08 Report Generation & Share | TC-011, TC-012 |
+| FR-09 Error Handling | TC-013 |
+| NFR-01 Performance | TC-014 |
+| NFR-02 Local Storage | TC-015 |
 
 ---
 
@@ -98,8 +95,8 @@ The following functional areas were verified:
 
 | Item | Count |
 |------|------:|
-| Total Test Cases | 16 |
-| Passed | 16 |
+| Total Test Cases | 15 |
+| Passed | 15 |
 | Failed | 0 |
 | Blocked | 0 |
 | Not Executed | 0 |
