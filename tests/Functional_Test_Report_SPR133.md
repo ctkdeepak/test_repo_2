@@ -1,0 +1,131 @@
+# Functional Test Report — SPR133 Baby Cry Analysis App
+
+**Package ID & Name:** SPR133 Baby Cry Analysis App  
+**Product Code & Name:** CT-PR-0190 Baby Cry Analysis System  
+**Module:** Baby Cry Data Collection and AI Analysis  
+**Version:** 1.0.2  
+**Test Date:** 2026-07-31
+**Prepared By:** Kumar Deepak
+
+---
+
+## 1. Purpose
+
+This document records the functional verification results of the **SPR133 Baby Cry Analysis App**.
+
+The objective is to verify that the implemented functionality complies with the Software Requirements Specification (SRS) and Architecture & Design Document (ADD).
+
+---
+
+## 2. Test Environment
+
+| Item | Details |
+|------|---------|
+| Operating System | Ubuntu 22.04.5 LTS |
+| Flutter SDK | 3.16.0 |
+| Dart SDK | 3.2.0 |
+| Android Studio | 2022.1 |
+| Android Device | Redmi 13C 5G |
+| Android Version | Android 14 |
+| Mobile Platform | Android |
+| Audio Source | Device Microphone |
+| Network | Wi-Fi / Mobile Data |
+
+---
+
+## 3. Test Scope
+
+The following functional areas were verified:
+
+- Patient Information Management
+- Mandatory Field Validation
+- Audio Recording
+- WAV File Selection
+- Audio Playback
+- Data Upload
+- AI Prediction
+- Upload History
+- Report Generation
+- PDF Save & Share
+- Error Handling
+- Local Storage
+
+---
+
+## 4. Functional Test Cases
+
+| Test ID | Requirement Reference | Feature | Test Procedure | Expected Result | Actual Result | Status |
+|---------|----------------------|---------|----------------|-----------------|---------------|--------|
+| TC-001 | FR-01 | Patient Information | Enter mandatory patient details | Mandatory fields accepted successfully | As Expected | Pass |
+| TC-002 | FR-02 | Mandatory Validation | Leave mandatory fields empty | Record, Upload and Predict buttons remain disabled | As Expected | Pass |
+| TC-003 | FR-03 | Audio Recording | Record baby cry audio | Audio recorded and stored locally | As Expected | Pass |
+| TC-004 | FR-04 | Audio Playback | Play recorded audio | Audio playback successful | As Expected | Pass |
+| TC-005 | FR-05 | WAV Selection | Select existing WAV file | Only supported WAV files accepted | As Expected | Pass |
+| TC-006 | FR-06 | Upload Data API | Upload patient information and audio | Upload completed successfully | As Expected | Pass |
+| TC-007 | FR-07 | AI Prediction API | Execute AI Prediction | Prediction and confidence score displayed | As Expected | Pass |
+| TC-008 | FR-08 | Upload History | Perform Upload Data and AI Prediction | Records stored successfully in Upload History | As Expected | Pass |
+| TC-009 | FR-08 | Upload History Status | Verify upload status | Success/Failed status displayed correctly | As Expected | Pass |
+| TC-010 | FR-08 | Delete Upload History Record | Delete a single record | Selected record removed successfully | As Expected | Pass |
+| TC-011 | FR-08 | Clear Upload History | Clear all history | All records removed after confirmation | As Expected | Pass |
+| TC-012 | FR-09 | Report Generation | Generate Baby Cry Analysis Report | PDF generated successfully | As Expected | Pass |
+| TC-013 | FR-09 | Share Report | Share generated PDF | Android share sheet opened successfully | As Expected | Pass |
+| TC-014 | FR-10 | API Failure Handling | Disconnect network and perform Upload/Predict | Proper error message displayed and failure recorded | As Expected | Pass |
+| TC-015 | NFR-01 | Performance | Execute Upload and Prediction workflows | Application remains responsive during processing | As Expected | Pass |
+| TC-016 | NFR-02 | Local Storage | Verify saved audio, PDF and Upload History | Files and history stored correctly | As Expected | Pass |
+
+---
+
+## 5. Requirement Traceability Matrix
+
+| SRS Requirement | Test Case(s) |
+|-----------------|--------------|
+| FR-01 Patient Information | TC-001 |
+| FR-02 Mandatory Validation | TC-002 |
+| FR-03 Audio Recording | TC-003 |
+| FR-04 Audio Playback | TC-004 |
+| FR-05 WAV Audio Selection | TC-005 |
+| FR-06 Data Upload | TC-006 |
+| FR-07 AI Prediction | TC-007 |
+| FR-08 Upload History | TC-008, TC-009, TC-010, TC-011 |
+| FR-09 Report Generation & Share | TC-012, TC-013 |
+| FR-10 Error Handling | TC-014 |
+| NFR-01 Performance | TC-015 |
+| NFR-02 Local Storage | TC-016 |
+
+---
+
+## 6. Test Summary
+
+| Item | Count |
+|------|------:|
+| Total Test Cases | 16 |
+| Passed | 16 |
+| Failed | 0 |
+| Blocked | 0 |
+| Not Executed | 0 |
+
+---
+
+## 7. Defects Observed
+
+No functional defects were identified during testing.
+
+---
+
+## 8. Conclusion
+
+The **SPR133 Baby Cry Analysis App** has been functionally verified against the requirements defined in the Software Requirements Specification (SRS) and Architecture & Design Document (ADD).
+
+All planned functional test cases passed successfully. The application correctly performs patient information validation, baby cry audio recording, WAV audio selection, Data Upload, AI Prediction, Upload History management, report generation, PDF sharing, and local data storage.
+
+The application is considered ready for package review and integration after completion of the remaining documentation and verification activities.
+
+---
+
+## 9. Approval
+
+| Role | Name | Signature | Date |
+|------|------|-----------|------|
+| Prepared By | Kumar Deepak | | 2026-07-30 |
+| Reviewed By | | | |
+| Approved By | | | |
