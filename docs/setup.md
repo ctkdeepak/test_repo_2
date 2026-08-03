@@ -53,7 +53,6 @@ SPR-133-BabyCryAnalysisApp/
 ├── docs/
 │   ├── SRS_SPR133.md
 │   ├── Architecture_SPR133.md
-│   ├── BACKLOG.md
 │   ├── setup.md
 │   ├── software-baseline.md
 │   └── SOUP.md
