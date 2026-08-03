@@ -74,4 +74,4 @@ Software Baseline v1.0.2 includes:
 
 **Prepared By:** Kumar Deepak
 
-**Status:** Version 1.0.2 (Under Development)
+**Status:** Version 1.0.2 (Ready for Review)

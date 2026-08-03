@@ -53,4 +53,4 @@ The following third-party software components are used within the SPR133 Baby Cr
 
 **Prepared By:** Kumar Deepak
 
-**Status:** Version 1.0.2 (Under Development)
+**Status:** Version 1.0.2 (Ready for Review)
