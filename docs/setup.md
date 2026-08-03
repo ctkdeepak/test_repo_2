@@ -72,7 +72,7 @@ SPR-133-BabyCryAnalysisApp/
 Clone the repository.
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:CriterionWorks/SPR-133-BabyCryAnalysisApp.git
 ```
 
 Move into the project directory.
