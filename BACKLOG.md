@@ -1,6 +1,6 @@
 # BACKLOG — SPR133 Baby Cry Analysis App
 
-**Package:** SPR133 | **Project:** CT-PR-0190 Baby Cry Analysis System | **Last Updated:** 2026-08-03
+**Package:** SPR133 | **Project:** CT-PR-0190 Baby Cry Analysis System | **Last Updated:** 2026-08-13
 
 Commit format: `SPR133-<NNN>: short description`
 
@@ -12,17 +12,8 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-060 | Perform functional testing | [~] | Functional testing in progress |
-| SPR133-061 | Verify mandatory patient information validation | [~] | Automatic validation |
-| SPR133-062 | Verify automatic enable/disable behavior of Audio Recording and Upload Audio sections | [~] | UI validation |
-| SPR133-063 | Verify Data Upload workflow | [~] | Upload API validation |
-| SPR133-064 | Verify AI Prediction workflow | [~] | AI API validation |
-| SPR133-065 | Verify Upload History functionality | [~] | Upload History verification |
-| SPR133-066 | Verify individual and bulk delete operations | [~] | History delete verification |
-| SPR133-067 | Verify report generation, saving and sharing | [~] | PDF verification |
-| SPR133-068 | Perform regression testing | [~] | Overall verification |
-| SPR133-069 | Resolve identified issues | [~] | Bug fixes |
-| SPR133-070 | Prepare package for milestone review | [~] | Ready for TL review |
+
+_(no active items)_
 
 ---
 
@@ -30,8 +21,6 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 
 | ID | Item | Status | Notes |
 |----|------|--------|-------|
-| SPR133-009 | Perform final code review and issue fixes | [ ] | Pre-release verification |
-| SPR133-010 | Prepare Version 1.0.2 Debug APK | [ ] | Debug build |
 
 ---
 
@@ -47,6 +36,8 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 | SPR133-006 | Create software baseline (software-baseline.md) | [x] | Software baseline documented |
 | SPR133-007 | Create SOUP register (SOUP.md) | [x] | SOUP register completed |
 | SPR133-008 | Update BACKLOG according to revised SRS | [x] | Revised milestones and tasks aligned with SRS v1.0.2 |
+| SPR133-009 | Perform final code review and issue fixes | [x] | Final code review and identified issue fixes completed |
+| SPR133-010 | Prepare Version 1.0.2 Debug APK | [x] | Version 1.0.2 Debug APK prepared |
 
 ### Milestone 1 – Project Setup & Patient Information
 
@@ -116,3 +107,19 @@ Status labels: `[ ]` Pending · `[~]` In Development · `[V]` In V&V · `[x]` Cl
 | SPR133-057 | Implement Delete individual Upload History record | [x] | Pending |
 | SPR133-058 | Implement Clear History functionality | [x] | Pending |
 | SPR133-059 | Display empty state when no Upload History is available | [x] | Pending |
+
+### Milestone 5 – Testing & Verification
+
+| ID | Item | Status | Notes |
+|----|------|--------|-------|
+| SPR133-060 | Perform functional testing | [x] | Functional testing completed |
+| SPR133-061 | Verify mandatory patient information validation | [x] | Automatic validation verified |
+| SPR133-062 | Verify automatic enable/disable behavior of Audio Recording and Upload Audio sections | [x] | UI behavior verified |
+| SPR133-063 | Verify Data Upload workflow | [x] | Upload API workflow verified |
+| SPR133-064 | Verify AI Prediction workflow | [x] | AI prediction workflow verified |
+| SPR133-065 | Verify Upload History functionality | [x] | Upload History functionality verified |
+| SPR133-066 | Verify individual and bulk delete operations | [x] | History delete operations verified |
+| SPR133-067 | Verify report generation, saving and sharing | [x] | PDF report functionality verified |
+| SPR133-068 | Perform regression testing | [x] | Regression testing completed |
+| SPR133-069 | Resolve identified issues | [x] | Identified issues resolved |
+| SPR133-070 | Prepare package for milestone review | [x] | Package prepared for TL review |
